@@ -63,5 +63,6 @@ export default {
     apiKey: process.env.MAILGUN_API_KEY,
     apiUsername: process.env.MAILGUN_USERNAME,
     domain: process.env.MAILGUN_DOMAIN
-  }
+  },
+  urlNumberRandom: process.env.NUMBER_RANDOM
 };
